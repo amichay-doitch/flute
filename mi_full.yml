@@ -1,0 +1,61 @@
+raw_data:                 # measure point to point
+                          # agg_data will measure edge to each point
+  new:
+    length: 53.5          # whole
+    width: 1.65 + eps     # diameter of the instrument
+    back_structure:
+      - 26.0
+      - 1                 # hole
+      - 26.5
+    face_structure:
+      - 32.3
+      - 1                 # hole
+      - 1.5
+      - 1
+      - 1.3
+      - 1
+      - 3.2
+      - 1
+      - 0.8
+      - 1
+      - 1.5
+      - 1
+      - 16.9
+  old:
+    length: 53
+    width:  1.65
+    back_structure:
+      - 25.6 + eps
+      - 0.9 + eps
+      - 26.5
+    face_structure:
+      - 32.7 - {eps}
+      - 1
+      - 1.2 + {eps}
+      - 1
+      - 1.2
+      - 1
+      - 3 + {eps}
+      - 1
+      - 1
+      - 1
+      - 1.3
+      - 1
+      - 6.2
+agg_data:
+  new:
+    face_structure:       # start at blow hole, down to the other side, throw holes
+      - 32.7 + eps
+      - 35.3
+      - 37.5 + eps
+      - 41.7
+      - 43.5 + eps
+      - 46
+  old:
+    face_structure:       # start at blow hole, down to the other side, throw holes
+      - 33.2
+      - 35.4
+      - 37.6 + eps
+      - 41.6
+      - 43.6
+      - 46 - eps
