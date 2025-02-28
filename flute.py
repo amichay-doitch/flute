@@ -79,8 +79,8 @@ def set_me_a_flute(length, diameter, scale=None):
 
 
 def main():
-    length = 51
-    diameter = 1.8
+    length = 52
+    diameter = 1.9
     set_me_a_flute(length, diameter)
     set_me_a_flute(length, diameter, scale='mi')
     set_me_a_flute(length, diameter, scale='sol')
